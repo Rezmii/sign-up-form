@@ -1,0 +1,112 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4em;
+}
+
+.left-section {
+  background-image: url("background-img.jpg");
+  width: 30%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.logo-background {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 22%;
+  margin-top: 150px;
+}
+
+.logo-background p {
+  font-family: "Madimi One", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
+
+.logo {
+  height: 100%;
+  margin-left: 45px;
+}
+
+.right-section {
+  width: 70%;
+  background-color: #eeeeee;
+}
+
+header {
+  font-weight: bold;
+  margin: 80px 30px 50px 30px;
+  overflow-wrap: break-word;
+  width: 55%;
+}
+
+.form-section {
+  background-color: white;
+  padding: 30px 50px;
+  box-shadow: 0 5px 10px -5px rgb(151, 148, 148);
+}
+
+.form-section p {
+  font-weight: bold;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.two-inputs-div {
+  display: flex;
+  gap: 100px;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  font-size: 0.75em;
+}
+
+input {
+  margin-top: 5px;
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  border: solid 2px #e5e7eb;
+}
+
+input:focus {
+  box-shadow: 0 0 5px black;
+}
+
+.button-section {
+  padding: 50px 30px 0 30px;
+}
+.sign-button {
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: #9ba8b1;
+  border: none;
+  font-weight: bold;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+.button-section p {
+  font-size: 0.8em;
+}
+
+.button-section p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #9ba8b1;
+}
