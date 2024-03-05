@@ -6,7 +6,7 @@ body {
 }
 
 .left-section {
-  /*background-image: url("background-img.jpg");*/
+  background-image: url("background-img.jpg");
   width: 30%;
   height: 100vh;
   background-size: cover;
