@@ -31,16 +31,16 @@
       </header>
       <section class="form-section">
         <p>Let's do this</p>
-        <form action="">
+        <form action="" method="">
           <div class="form-div">
             <div class="two-inputs-div">
               <div class="input-div">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" />
+                <input type="text" id="first-name" required/>
               </div>
               <div class="input-div">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" />
+                <input type="text" id="last-name" required/>
               </div>
             </div>
             <div class="two-inputs-div">
@@ -54,22 +54,24 @@
               </div>
             </div>
             <div class="two-inputs-div">
-              <div class="input-div">
+              <div class="input-div password-div-error">
                 <label for="password">PASSWORD</label>
                 <input type="password" id="password" />
               </div>
               <div class="input-div">
-                <label for="confirm-password">CONFRIM PASSWORD</label>
+                <label for="confirm-password">CONFIRM PASSWORD</label>
                 <input type="password" id="confirm-password" />
               </div>
             </div>
           </div>
-        </form>
+        
       </section>
       <section class="button-section">
         <button class="sign-button">Create Account</button>
+      </form>
         <p>Already have an account? <a href="">Log in</a></p>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>

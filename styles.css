@@ -6,7 +6,7 @@ body {
 }
 
 .left-section {
-  background-image: url("background-img.jpg");
+  /*background-image: url("background-img.jpg");*/
   width: 30%;
   height: 100vh;
   background-size: cover;
@@ -85,7 +85,13 @@ input {
 }
 
 input:focus {
-  box-shadow: 0 0 5px black;
+  border: 1px solid #377aff;
+  outline-color: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+input:focus-visible {
+  outline: 0;
 }
 
 .button-section {
@@ -109,4 +115,13 @@ input:focus {
   text-decoration: none;
   font-weight: bold;
   color: #9ba8b1;
+}
+
+.error {
+  border-color: red;
+}
+
+.pass-error {
+  font-size: 0.8em;
+  color: red;
 }
